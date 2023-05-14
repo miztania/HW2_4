@@ -14,7 +14,7 @@ class Program{
 
             for (int i = 0; i < size; i++)
             {
-                Console.Write("Enter element #" + i + ": ");
+                Console.Write("Enter element #" + (i+1) + ": ");
             
                 arr[i] = int.Parse(Console.ReadLine());
             }
